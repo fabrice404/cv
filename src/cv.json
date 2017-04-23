@@ -1,0 +1,202 @@
+{
+  "name": "Fabrice Lamant",
+  "title": {
+    "fr": "Développeur web",
+    "en": "Web developer"
+  },
+  "contact": [{
+    "icon": "mail",
+    "value": "fabrice.lamant@protonmail.com"
+  }, {
+    "icon": "phone",
+    "value": "+33 642 029 081"
+  }],
+  "birthdate": {
+    "year": 1985,
+    "month": 9,
+    "day": 18
+  },
+  "links": [{
+    "title": "LinkedIn",
+    "icon": "linkedin",
+    "link": "https://www.linkedin.com/in/fabrice-lamant-36236337/"
+  }, {
+    "title": "GitHub",
+    "icon": "github",
+    "link": "https://github.com/fabrice404"
+  }, {
+    "title": "Twitter",
+    "icon": "twitter",
+    "link": "https://twitter.com/pook404"
+  }],
+  "hashtags": [
+    "#webdev", "#geek", "#dad"
+  ],
+  "experience": [{
+    "title": {
+      "en": "Web developer",
+      "fr": "Développeur web"
+    },
+    "company": "iDVROOM",
+    "start": {
+      "year": 2016,
+      "month": 6
+    },
+    "tasks": {
+      "fr": [],
+      "en": []
+    }
+  }, {
+    "title": {
+      "en": "Lead web developer",
+      "fr": "Responsable développement web"
+    },
+    "company": "Octave",
+    "start": {
+      "year": 2012,
+      "month": 10
+    },
+    "end": {
+      "year": 2016,
+      "month": 4
+    },
+    "tasks": {
+      "fr": [],
+      "en": []
+    }
+  }, {
+    "title": {
+      "en": "Web developer",
+      "fr": "Développeur web"
+    },
+    "company": "Octave",
+    "start": {
+      "year": 2009,
+      "month": 2
+    },
+    "end": {
+      "year": 2012,
+      "month": 9
+    },
+    "tasks": {
+      "fr": [],
+      "en": []
+    }
+  }, {
+    "title": {
+      "en": "Web developer",
+      "fr": "Développeur web"
+    },
+    "company": "OpenPortal Software",
+    "start": {
+      "year": 2007,
+      "month": 3
+    },
+    "end": {
+      "year": 2009,
+      "month": 1
+    },
+    "tasks": {
+      "fr": [],
+      "en": []
+    }
+  }, {
+    "title": {
+      "en": "ADSL technical support agent",
+      "fr": "Technicien support ADSL"
+    },
+    "company": "Sitel",
+    "start": {
+      "year": 2006,
+      "month": 8
+    },
+    "end": {
+      "year": 2007,
+      "month": 1
+    },
+    "tasks": {
+      "fr": [],
+      "en": []
+    }
+  }],
+  "education": [{
+    "title": {
+      "fr": "Formation PHP avancé & Symfony 2/3",
+      "en": "Advanced PHP & Symfony 2/3 training"
+    },
+    "year": 2016
+  }, {
+    "title": {
+      "fr": "Certification Microsoft 70-315",
+      "en": "Microsoft Professional Certification 70-315"
+    },
+    "subtitle": {
+      "fr": " Développement  et  mise  en œuvred'applications  Web  avec  Microsoft Visual C# .NET et Microsoft Visual Studio.NET",
+      "en": "Developing and Implementing Web Applications with Microsoft Visual C# .NET and Microsoft Visual Studio .NET"
+    },
+    "year": 2009
+  }, {
+    "title": {
+      "fr": "Brevet de technicien supérieur",
+      "en": "2-year degree in industrial IT"
+    },
+    "subtitle": {
+      "fr": "Informatique et réseaux pour l'industrie et les services techniques.",
+      "en": "IT and networks for industry and technical services"
+    },
+    "year": 2006
+  }, {
+    "title": {
+      "fr": "Baccalauréat Scienfique -",
+      "en": "High school diploma in sciences"
+    },
+    "subtitle": {
+      "fr": "Option sciences de l'ingénieur",
+      "en": "Engineering science"
+    },
+    "year": 2004
+  }],
+  "skills": [{
+    "title": "ASP.NET / C#",
+    "grade": 0.9
+  }, {
+    "title": "SQL",
+    "grade": 0.9
+  }, {
+    "title": "Javascript",
+    "grade": 0.7
+  }, {
+    "title": "HTML / CSS",
+    "grade": 0.6
+  }, {
+    "title": "PHP",
+    "grade": 0.6
+  }],
+  "languages": [{
+    "title": {
+      "fr": "Français",
+      "en": "French"
+    },
+    "grade": 1
+  }, {
+    "title": {
+      "fr": "Anglais",
+      "en": "English"
+    },
+    "grade": 0.8
+  }, {
+    "title": {
+      "fr": "Espagnol",
+      "en": "Spanish"
+    },
+    "grade": 0.2
+  }],
+  "hobbies": [{
+    "title": {
+      "fr": "test",
+      "en": "test"
+    },
+    "icon": "test"
+  }],
+  "credits": []
+}
