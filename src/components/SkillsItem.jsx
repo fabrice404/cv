@@ -1,13 +1,9 @@
 import React from 'react';
 
-class SkillsItem extends React.Component {
-  render() {
-    return (
-      <div className="item">
-        <span className="title">{this.props.item.title}</span>
-      </div>
-    );
-  }
-}
+const SkillsItem = props => (
+    <div className="item">
+        <span className="title">{props.title}</span>
+    </div>
+);
 
 export default SkillsItem;

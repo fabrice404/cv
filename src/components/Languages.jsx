@@ -1,20 +1,11 @@
 import React from 'react';
 import LanguagesItem from './LanguagesItem';
 
-class Languages extends React.Component {
-  render() {
-    let lang = this.props.lang
-    let items = [];
-    this.props.languages.forEach(function(item, i) {
-      items.push(<LanguagesItem item={item} lang={lang} key={i}/>)
-    });
-    return (
-      <div className="languages">
+const Languages = ({languages, lang}) => (
+    <div className="languages">
         <h2>Languages</h2>
-        {items}
-      </div>
-    );
-  }
-}
+        {languages.map(language => <LanguagesItem {...language} lang={lang} key={Math.random(0, 1)}/>)}
+    </div>
+);
 
 export default Languages;

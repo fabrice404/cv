@@ -1,20 +1,11 @@
 import React from 'react';
 import SkillsItem from './SkillsItem';
 
-class Skills extends React.Component {
-  render() {
-    let lang = this.props.lang
-    let items = [];
-    this.props.skills.forEach(function(item, i) {
-      items.push(<SkillsItem item={item} lang={lang} key={i}/>)
-    });
-    return (
-      <div className="skills">
+const Skills = ({skills, lang}) => (
+    <div className="skills">
         <h2>Skills</h2>
-        {items}
-      </div>
-    );
-  }
-}
+        {skills.map(skill => <SkillsItem {...skill} lang={lang} key={Math.random(0, 1)}/>)}
+    </div>
+);
 
 export default Skills;

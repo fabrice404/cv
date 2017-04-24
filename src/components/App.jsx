@@ -8,22 +8,18 @@ import Languages from './Languages'
 import Links from './Links'
 import Skills from './Skills'
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>{this.props.cv.name}</h1>
-        <h2>{this.props.cv.title[this.props.lang]}</h2>
-        <Links links={this.props.cv.links} lang={this.props.lang}/>
-        <Experience experience={this.props.cv.experience} lang={this.props.lang}/>
-        <Education education={this.props.cv.education} lang={this.props.lang}/>
-        <Contact contact={this.props.cv.contact} lang={this.props.lang}/>
-        <Skills skills={this.props.cv.skills} lang={this.props.lang}/>
-        <Languages languages={this.props.cv.languages} lang={this.props.lang}/>
-        <Hobbies hobbies={this.props.cv.hobbies} lang={this.props.lang}/>
-      </div>
-    );
-  }
-}
+const App = props => (
+    <div>
+        <h1>{props.cv.name}</h1>
+        <h2>{props.cv.title[props.lang]}</h2>
+        <Links links={props.cv.links} lang={props.lang}/>
+        <Experience experience={props.cv.experience} lang={props.lang}/>
+        <Education education={props.cv.education} lang={props.lang}/>
+        <Contact contact={props.cv.contact} lang={props.lang}/>
+        <Skills skills={props.cv.skills} lang={props.lang}/>
+        <Languages languages={props.cv.languages} lang={props.lang}/>
+        <Hobbies hobbies={props.cv.hobbies} lang={props.lang}/>
+    </div>
+);
 
 export default App;

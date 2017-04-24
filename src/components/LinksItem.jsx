@@ -1,15 +1,12 @@
 import React from 'react';
+import FontAwesome from 'react-fontawesome'
 
-class LinksItem extends React.Component {
-  render() {
-    return (
-      <li>
-        <a href={this.props.item.link} target="_blank">
-          <i className={"fa fa-" + this.props.item.icon}>{this.props.item.title}</i>
+const LinksItem = props => (
+    <li>
+        <a href={props.link} target="_blank">
+            <FontAwesome name={props.icon}/>
         </a>
-      </li>
-    );
-  }
-}
+    </li>
+);
 
 export default LinksItem;

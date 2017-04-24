@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 
-const ExperienceItem = (props) => (
+const ExperienceItem = props => (
     <div className="item">
         <span className="title">{props.title[props.lang]}</span>
         <span className="company">{props.company}</span>
