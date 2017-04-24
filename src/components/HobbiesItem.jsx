@@ -1,13 +1,12 @@
 import React from 'react';
+import FontAwesome from 'react-fontawesome'
 
-class HobbiesItem extends React.Component {
-  render() {
-    return (
-      <div className="item">
-        <span className="title">{this.props.item.title[this.props.lang]}</span>
-      </div>
-    );
-  }
-}
+const HobbiesItem = (props) => (
+    <div className="item">
+        <span className="title">
+            <FontAwesome name={props.icon}/> {props.title[props.lang]}
+        </span>
+    </div>
+);
 
 export default HobbiesItem;
