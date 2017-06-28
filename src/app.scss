@@ -1,103 +1,167 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic";
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
-$title: #545e69;
-$bg: #dae3e7;
-$bg-header: #f5f5f5;
-$bg-section: white;
-@mixin border-radius($radius) {
-  -moz-border-radius: $radius;
-  -ms-border-radius: $radius;
-  -o-border-radius: $radius;
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
+$white: #ffffff;
+$black: #555555;
+$grey: #777777;
+$lightgrey: #e8e8e8;
+$color1: #a8b2c4;
+$color2: #03b5aa;
+$color3: #05a8aa;
+$color4: #dc602e;
+$color5: #188fa7;
+@mixin transform-scale($sx, $sy) {
+  transform: scale($sx, $sy);
+  -webkit-transform: scale($sx, $sy);
+  -moz-transform: scale($sx, $sy);
+  -ms-transform: scale($sx, $sy);
+  -o-transform: scale($sx ,$sy);
 }
-@mixin transition($transition...) {
-  -moz-transition: $transition;
-  -ms-transition: $transition;
-  -o-transition: $transition;
-  -webkit-transition: $transition;
-  transition: $transition;
+@mixin border-radius($r) {
+  border-radius: $r;
+  -webkit-border-radius: $r;
+  -moz-border-radius: $r;
+  -ms-border-radius: $r;
+  -o-border-radius: $r;
 }
-@media(min-width:1400px) {
-  .container {
-    width: 1360px;
+@mixin transition($t) {
+  transition: $t;
+  -webkit-transition: $t;
+  -moz-transition: $t;
+  -ms-transition: $t;
+  -o-transition: $t;
+}
+
+* {
+  @include transition(all .4s ease-in-out);
+}
+
+.container {
+  color: $black;
+  background: $white;
+  font-family: 'Lato',sans-serif;
+  font-size: 14px;
+  padding: 70px 0;
+
+  h3 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    @include transform-scale(1, 1.25);
   }
-}
 
-body {
-  background-color: $bg;
-
-  a {
-    @include transition(all .4s ease-in-out);
+  .separator {
+    margin: 0 3px;
   }
 
-  header {
-    background-color: $bg-header;
-    border-top: 10px solid #778492;
-    margin-bottom: 50px;
-    padding: 30px 0;
-
-    h1 {
-      color: #49515a;
+  .section--title {
+    .name {
+      color: $color5;
       font-family: 'Montserrat',sans-serif;
-      font-size: 38px;
       font-weight: 700;
-      margin: 30px 0 5px;
+      margin: 0;
+      text-transform: uppercase;
+      @include transform-scale(1, 1.25);
     }
 
-    h2 {
-      color: #778492;
-      font-family: 'Lato',sans-serif;
-      font-size: 24px;
-      font-weight: 400;
-      margin: 0 0 15px;
+    .job-title {
+      display: inline-block;
+      font-size: 25px;
+      line-height: 25px;
+      margin-top: 0;
     }
 
-    ul.social {
-      padding: 0;
+    .social {
+      display: inline-block;
+      padding-left: 15px;
 
-      li {
+      .social-item {
         display: inline-block;
-        padding: 0 10px 0 0;
+        margin-right: 10px;
 
         a {
-          @include border-radius(50%);
-          background: #b0b7bf;
-          color: white;
+          background: $color5;
+          color: $white;
           display: block;
-          height: 36px;
+          height: 25px;
+          line-height: 25px;
           text-align: center;
-          vertical-align: middle;
-          width: 36px;
+          width: 25px;
+          @include border-radius(50%);
 
           &:hover {
-            background: #778492;
-          }
-
-          .fa {
-            font-size: 20px;
-            padding: 8px 0 0;
+            background: $color3;
           }
         }
       }
     }
   }
 
-  .section {
-    background-color: $bg-section;
-    margin-bottom: 30px;
+  .section--contact,
+  .section--experience,
+  .section--skills,
+  .section--languages,
+  .section--hobbies {
+    .title-1 {
+      color: $color5;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
 
-    .section-inner {
-      padding: 30px;
+    .title-2 {
+      color: $grey;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 14px;
+    }
 
-      h2 {
-        color: $title;
-        font-family: 'Montserrat',sans-serif;
-        font-size: 24px;
-        font-weight: 700;
-        margin-top: 0;
+    .date {
+      color: $grey;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 13px;
+      margin-left: 5px;
+    }
+
+    .tasks {
+      list-style-type: none;
+      padding-left: 15px;
+
+      .task {
+        .fa {
+          color: $color5;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .language,
+    .skill {
+      padding-bottom: 10px;
+
+      .level-bar {
+        background: $lightgrey;
+        height: 18px;
+        width: 100%;
+
+        .level-bar-inner {
+          background: $color5;
+          height: 18px;
+        }
+      }
+    }
+
+    .contact,
+    .hobbie {
+      padding-bottom: 5px;
+
+      .fa {
+        color: $color5;
+        margin-left: -8px;
+        text-align: center;
+        width: 32px;
       }
     }
   }

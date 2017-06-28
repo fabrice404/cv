@@ -2,11 +2,9 @@ import React from 'react';
 import FontAwesome from 'react-fontawesome'
 
 const ContactItem = props => (
-    <div className="item">
-        <span className="title">
-            <FontAwesome name={props.icon}/> {props.value}
-        </span>
-    </div>
+  <div className="contact">
+    <FontAwesome name={props.icon}/> {props.value}
+  </div>
 );
 
 export default ContactItem;
