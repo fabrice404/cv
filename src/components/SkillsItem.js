@@ -1,13 +1,13 @@
 import React from 'react';
 
-const SkillsItem = props => (
+const SkillsItem = ({ title, grade }) => (
   <div className="skill">
-    <span className="title-2">{props.title}</span>
+    <span className="title-2">{title}</span>
     <div className="level-bar">
       <div
         className="level-bar-inner"
         style={{
-          width: props.grade * 100 + '%'
+          width: grade * 100 + '%'
         }}
       />
     </div>

@@ -8,26 +8,26 @@ import Languages from './Languages';
 import Links from './Links';
 import Skills from './Skills';
 
-const App = props => (
+const App = ({ cv, lang }) => (
   <div className="container">
     <div className="row">
       <div className="col-md-8">
         <section className="section--title">
-          <h1 className="name">{props.cv.name}</h1>
-          <h2 className="job-title">{props.cv.title[props.lang]}</h2>
-          <Links links={props.cv.links} lang={props.lang} />
+          <h1 className="name">{cv.name}</h1>
+          <h2 className="job-title">{cv.title[lang]}</h2>
+          <Links links={cv.links} lang={lang} />
         </section>
         <section className="section--about" />
-        <Experience experience={props.cv.experience} lang={props.lang} />
+        <Experience experience={cv.experience} lang={lang} />
         <section className="section--education">
-          <Education education={props.cv.education} lang={props.lang} />
+          <Education education={cv.education} lang={lang} />
         </section>
       </div>
       <div className="col-md-4">
-        <Contact contact={props.cv.contact} lang={props.lang} />
-        <Skills skills={props.cv.skills} lang={props.lang} />
-        <Languages languages={props.cv.languages} lang={props.lang} />
-        <Hobbies hobbies={props.cv.hobbies} lang={props.lang} />
+        <Contact contact={cv.contact} lang={lang} />
+        <Skills skills={cv.skills} lang={lang} />
+        <Languages languages={cv.languages} lang={lang} />
+        <Hobbies hobbies={cv.hobbies} lang={lang} />
       </div>
     </div>
   </div>

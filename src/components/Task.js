@@ -1,9 +1,9 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
 
-const Task = props => (
+const Task = ({ title }) => (
   <li className="task">
-    <FontAwesome name="caret-right" /> {props.title}
+    <FontAwesome name="caret-right" /> {title}
   </li>
 );
 
