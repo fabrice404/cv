@@ -2,6 +2,7 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+
 $white: #ffffff;
 $black: #555555;
 $grey: #777777;
@@ -16,8 +17,9 @@ $color5: #188fa7;
   -webkit-transform: scale($sx, $sy);
   -moz-transform: scale($sx, $sy);
   -ms-transform: scale($sx, $sy);
-  -o-transform: scale($sx ,$sy);
+  -o-transform: scale($sx, $sy);
 }
+
 @mixin border-radius($r) {
   border-radius: $r;
   -webkit-border-radius: $r;
@@ -25,6 +27,7 @@ $color5: #188fa7;
   -ms-border-radius: $r;
   -o-border-radius: $r;
 }
+
 @mixin transition($t) {
   transition: $t;
   -webkit-transition: $t;
@@ -40,12 +43,12 @@ $color5: #188fa7;
 .container {
   color: $black;
   background: $white;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   padding: 70px 0;
 
   h3 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -59,7 +62,7 @@ $color5: #188fa7;
   .section--title {
     .name {
       color: $color5;
-      font-family: 'Montserrat',sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: 700;
       margin: 0;
       text-transform: uppercase;
@@ -106,7 +109,7 @@ $color5: #188fa7;
   .section--hobbies {
     .title-1 {
       color: $color5;
-      font-family: 'Montserrat',sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       font-weight: 600;
       line-height: 1.5;
@@ -114,13 +117,13 @@ $color5: #188fa7;
 
     .title-2 {
       color: $grey;
-      font-family: 'Montserrat',sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 14px;
     }
 
     .date {
       color: $grey;
-      font-family: 'Montserrat',sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 13px;
       margin-left: 5px;
     }

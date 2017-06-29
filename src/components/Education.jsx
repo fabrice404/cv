@@ -6,7 +6,7 @@ const Education = ({ education, lang }) => (
     <div className="section-inner">
       <h3>Formations</h3>
       {education.map(education => (
-        <EducationItem {...education} lang={lang} key={Math.random(0, 1)} />
+        <EducationItem {...education} lang={lang} key={Math.random()} />
       ))}
     </div>
   </div>
