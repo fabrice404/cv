@@ -7,7 +7,7 @@ const SkillsItem = ({ title, grade }) => (
       <div
         className="level-bar-inner"
         style={{
-          width: grade * 100 + '%'
+          width: `${grade * 100}%`
         }}
       />
     </div>

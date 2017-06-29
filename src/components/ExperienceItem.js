@@ -16,7 +16,7 @@ const ExperienceItem = props => (
     <span className="date">
       (
       <span className="start">
-        {moment(props.start.month + ' ' + props.start.year, 'MM YYYY').format(
+        {moment(`${props.start.month} ${props.start.year}`, 'MM YYYY').format(
           'MMM YYYY'
         )}
       </span>
@@ -26,7 +26,7 @@ const ExperienceItem = props => (
       <span className="end">
         {props.end &&
           <span>
-            {moment(props.end.month + ' ' + props.end.year, 'MM YYYY').format(
+            {moment(`${props.end.month} ${props.end.year}`, 'MM YYYY').format(
               'MMM YYYY'
             )}
           </span>}
