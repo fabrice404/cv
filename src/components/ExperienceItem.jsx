@@ -11,23 +11,33 @@ const ExperienceItem = props => (
       @
     </span>
     <span className="title-2">
-      {props.company}</span>
+      {props.company}
+    </span>
     <span className="date">
       (
       <span className="start">
-        {moment(props.start.month + ' ' + props.start.year, 'MM YYYY').format('MMM YYYY')}
+        {moment(props.start.month + ' ' + props.start.year, 'MM YYYY').format(
+          'MMM YYYY'
+        )}
       </span>
       <span className="separator">
         -
       </span>
       <span className="end">
-        {props.end && <span>{moment(props.end.month + ' ' + props.end.year, 'MM YYYY').format('MMM YYYY')}</span>}
+        {props.end &&
+          <span>
+            {moment(props.end.month + ' ' + props.end.year, 'MM YYYY').format(
+              'MMM YYYY'
+            )}
+          </span>}
         {!props.end && <span>{moment().format('MMM YYYY')}</span>}
       </span>
       )
     </span>
     <ul className="tasks">
-      {props.tasks[props.lang].map(task => <Task {...task} lang={props.lang} key={Math.random(0, 1)}/>)}
+      {props.tasks[props.lang].map(task => (
+        <Task {...task} lang={props.lang} key={Math.random(0, 1)} />
+      ))}
     </ul>
   </div>
 );
