@@ -48,6 +48,7 @@ $color5: #188fa7;
     font-family: 'Montserrat',sans-serif;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 50px;
     text-transform: uppercase;
     @include transform-scale(1, 1.25);
   }
@@ -99,11 +100,16 @@ $color5: #188fa7;
     }
   }
 
+  .section--about{
+    white-space: pre-line;
+  }
+
   .section--contact,
   .section--experience,
-  .section--skills,
+  .section--education,
+  .section--hobbies,
   .section--languages,
-  .section--hobbies {
+  .section--skills {
     .title-1 {
       color: $color5;
       font-family: 'Montserrat',sans-serif;
@@ -125,11 +131,11 @@ $color5: #188fa7;
       margin-left: 5px;
     }
 
-    .tasks {
+    .list {
       list-style-type: none;
       padding-left: 15px;
 
-      .task {
+      .list-item {
         .fa {
           color: $color5;
           margin-right: 10px;
@@ -143,19 +149,19 @@ $color5: #188fa7;
 
       .level-bar {
         background: $lightgrey;
-        height: 18px;
+        height: 14px;
         width: 100%;
 
         .level-bar-inner {
           background: $color5;
-          height: 18px;
+          height: 14px;
         }
       }
     }
 
     .contact,
     .hobbie {
-      padding-bottom: 5px;
+      margin-bottom: 8px;
 
       .fa {
         color: $color5;

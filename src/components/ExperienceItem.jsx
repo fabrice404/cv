@@ -26,7 +26,7 @@ const ExperienceItem = props => (
       </span>
       )
     </span>
-    <ul className="tasks">
+    <ul className="list">
       {props.tasks[props.lang].map(task => <Task {...task} lang={props.lang} key={Math.random(0, 1)}/>)}
     </ul>
   </div>

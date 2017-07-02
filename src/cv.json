@@ -4,9 +4,13 @@
     "fr": "Développeur web",
     "en": "Web developer"
   },
+  "about":{
+    "fr":"Bonjour, je m'appelle Fabrice Lamant, j'ai {age} ans et je suis développeur web full-stack et lead technique.\r\nPassionné de nouvelles technologies, j'ai commencé à développer mes premiers sites à l’âge de 14 ans.\r\nDepuis je cherche continuellement de nouveaux défis.",
+    "en":""
+  },
   "contact": [{
     "icon": "envelope-o",
-    "value": "fabrice.lamant@protonmail.com"
+    "value": "fabrice.lamant@gmail.com"
   }, {
     "icon": "phone",
     "value": "+33 642 029 081"
@@ -185,6 +189,10 @@
   }],
   "education": [{
     "title": {
+      "fr": "Formation Symfony 2/3",
+      "en": "Symfony 2/3 training"
+    },
+    "subtitle": {
       "fr": "Formation PHP avancé & Symfony 2/3",
       "en": "Advanced PHP & Symfony 2/3 training"
     },
@@ -195,13 +203,13 @@
       "en": "Microsoft Professional Certification 70-315"
     },
     "subtitle": {
-      "fr": " Développement  et  mise  en œuvred'applications  Web  avec  Microsoft Visual C# .NET et Microsoft Visual Studio.NET",
+      "fr": "Développement et mise en œuvre d'applications Web avec Microsoft Visual C# .NET et Microsoft Visual Studio.NET",
       "en": "Developing and Implementing Web Applications with Microsoft Visual C# .NET and Microsoft Visual Studio .NET"
     },
     "year": 2009
   }, {
     "title": {
-      "fr": "Brevet de technicien supérieur",
+      "fr": "BTS IRIS",
       "en": "2-year degree in industrial IT"
     },
     "subtitle": {
@@ -211,7 +219,7 @@
     "year": 2006
   }, {
     "title": {
-      "fr": "Baccalauréat Scienfique -",
+      "fr": "Baccalauréat Scienfique",
       "en": "High school diploma in sciences"
     },
     "subtitle": {
@@ -247,7 +255,7 @@
       "fr": "Anglais",
       "en": "English"
     },
-    "grade": 0.75
+    "grade": 0.70
   }, {
     "title": {
       "fr": "Espagnol",

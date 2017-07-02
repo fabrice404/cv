@@ -1,5 +1,6 @@
 import React from 'react';
 
+import About from './About'
 import Contact from './Contact'
 import Education from './Education'
 import Experience from './Experience'
@@ -7,7 +8,6 @@ import Hobbies from './Hobbies'
 import Languages from './Languages'
 import Links from './Links'
 import Skills from './Skills'
-
 const App = props => (
   <div>
     <div className="container">
@@ -18,9 +18,9 @@ const App = props => (
             <h2 className="job-title">{props.cv.title[props.lang]}</h2>
             <Links links={props.cv.links} lang={props.lang}/>
           </section>
-          <section className="section--about"></section>
+          <About about={props.cv.about} lang={props.lang}/>
           <Experience experience={props.cv.experience} lang={props.lang}/>
-          <section className="section--education"><Education education={props.cv.education} lang={props.lang}/></section>
+          <Education education={props.cv.education} lang={props.lang}/>
         </div>
         <div className="col-md-4">
           <Contact contact={props.cv.contact} lang={props.lang}/>

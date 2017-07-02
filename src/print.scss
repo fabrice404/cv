@@ -1,0 +1,39 @@
+@import "./screen.css";
+
+* {
+  -webkit-print-color-adjust: exact;
+}
+
+.container {
+  .col-md-8 {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+  }
+
+  .col-md-4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+  }
+
+  .section--title {
+    .social {
+      display: none;
+    }
+  }
+
+  .level-bar {
+    .level-bar-inner {
+      content: url('color/blue.png');
+      overflow: hidden;
+      height: 25px;
+    }
+  }
+
+  .fa,
+  .name,
+  .title-1 {
+    color: #188fa7 !important;
+  }
+}
