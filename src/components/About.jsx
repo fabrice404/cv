@@ -7,7 +7,6 @@ function translate(text) {
 
 const About = ({about, lang}) => (
   <section className="section--about">
-    <h3>A propos</h3>
     {translate(about[lang])}
   </section>
 );

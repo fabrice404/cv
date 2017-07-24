@@ -1,6 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import Task from './Task';
+import Tech from './Tech';
 
 const ExperienceItem = props => (
   <div className="item">
@@ -26,7 +27,10 @@ const ExperienceItem = props => (
       </span>
       )
     </span>
-    <ul className="list">
+    <ul className="tech-list">
+      {props.tech.map(tech => <Tech tech={tech} lang={props.lang} key={Math.random(0, 1)}/>)}
+    </ul>
+    <ul className="task-list">
       {props.tasks[props.lang].map(task => <Task {...task} lang={props.lang} key={Math.random(0, 1)}/>)}
     </ul>
   </div>

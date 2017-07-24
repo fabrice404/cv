@@ -2,9 +2,10 @@ import React from 'react';
 import LinksItem from './LinksItem';
 
 const Links = ({links, lang}) => (
-  <ul className="social">
+  <section className="section--links">
+    <h3>Links</h3>
     {links.map(link => <LinksItem {...link} lang={lang} key={Math.random(0, 1)}/>)}
-  </ul>
+  </section>
 );
 
 export default Links;

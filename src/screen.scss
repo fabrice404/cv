@@ -45,6 +45,7 @@ $color5: #188fa7;
   padding: 70px 10px;
 
   h3 {
+    border-bottom: 1px solid $lightgrey;
     font-family: 'Montserrat',sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -68,47 +69,57 @@ $color5: #188fa7;
     }
 
     .job-title {
-      display: inline-block;
-      font-size: 25px;
-      line-height: 25px;
-      margin-top: 0;
-    }
+      padding: 5px 0 30px;
 
-    .social {
-      display: inline-block;
-      padding-left: 15px;
+      > * {
+        margin: 0;
+        vertical-align: middle;
+      }
 
-      .social-item {
+      h2 {
         display: inline-block;
-        margin-right: 10px;
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 0;
+      }
 
-        a {
-          background: $color5;
-          color: $white;
-          display: block;
-          height: 25px;
-          line-height: 25px;
-          text-align: center;
-          width: 25px;
-          @include border-radius(50%);
+      .social {
+        display: inline-block;
+        padding-left: 15px;
 
-          &:hover {
-            background: $color3;
+        .social-item {
+          display: inline-block;
+          margin-right: 10px;
+
+          a {
+            background: $color5;
+            color: $white;
+            display: block;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            width: 25px;
+            @include border-radius(50%);
+
+            &:hover {
+              background: $color3;
+            }
           }
         }
       }
     }
   }
 
-  .section--about{
+  .section--about {
     white-space: pre-line;
   }
 
   .section--contact,
-  .section--experience,
   .section--education,
+  .section--experience,
   .section--hobbies,
   .section--languages,
+  .section--links,
   .section--skills {
     .title-1 {
       color: $color5;
@@ -131,7 +142,17 @@ $color5: #188fa7;
       margin-left: 5px;
     }
 
-    .list {
+    .tech-list {
+      list-style-type: none;
+      padding-left: 50px;
+
+      .list-item {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+
+    .task-list {
       list-style-type: none;
       padding-left: 15px;
 
@@ -160,7 +181,8 @@ $color5: #188fa7;
     }
 
     .contact,
-    .hobbie {
+    .hobbie,
+    .link {
       margin-bottom: 8px;
 
       .fa {
@@ -168,6 +190,13 @@ $color5: #188fa7;
         margin-left: -8px;
         text-align: center;
         width: 32px;
+      }
+
+      .href a {
+        display: block;
+        padding-left: 24px;
+        font-size: 75%;
+        color: $black;
       }
     }
   }

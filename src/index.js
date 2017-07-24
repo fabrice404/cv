@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import moment from 'moment';
 import App from './components/App'
 const cv = require('./cv.json');
-let lang = 'fr';
+let lang = 'en';
 
 moment.locale(lang);
 ReactDOM.render(

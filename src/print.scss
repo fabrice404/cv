@@ -4,6 +4,10 @@
   -webkit-print-color-adjust: exact;
 }
 
+a[href]:after {
+  content: none !important;
+}
+
 .container {
   .col-md-8 {
     display: inline-block;
@@ -19,7 +23,7 @@
 
   .section--title {
     .social {
-      display: none;
+      display: none !important;
     }
   }
 

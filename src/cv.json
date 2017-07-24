@@ -2,11 +2,11 @@
   "name": "Fabrice Lamant",
   "title": {
     "fr": "Développeur web",
-    "en": "Web developer"
+    "en": "Web developer // team lead"
   },
-  "about":{
-    "fr":"Bonjour, je suis Fabrice Lamant, j'ai {age} ans, je suis développeur web full-stack et lead technique.\r\nPassionné de nouvelles technologies, j'ai commencé à développer mes premiers sites à l’âge de 14 ans.\r\nDepuis je cherche continuellement de nouveaux défis.",
-    "en":""
+  "about": {
+    "fr": "Bonjour, je suis Fabrice Lamant, j'ai {age} ans, je suis développeur web full-stack et lead technique.\r\nPassionné de nouvelles technologies, j'ai commencé à développer mes premiers sites à l’âge de 14 ans.\r\nDepuis je cherche continuellement de nouveaux défis.",
+    "en": "Web developer offering +10 years of experience in developing complex web applications, e-commerce websites and APIs.\r\nLooking for an opportunity to work in Ireland."
   },
   "contact": [{
     "icon": "envelope-o",
@@ -29,7 +29,7 @@
   "links": [{
     "title": "LinkedIn",
     "icon": "linkedin",
-    "link": "https://www.linkedin.com/in/fabrice-lamant-web-developer/"
+    "link": "https://linkedin.com/in/fabrice-lamant-web-developer/"
   }, {
     "title": "GitHub",
     "icon": "github",
@@ -44,14 +44,15 @@
   ],
   "experience": [{
     "title": {
-      "en": "Web developer",
-      "fr": "Développeur web"
+      "en": "Lead web developer",
+      "fr": "Lead développeur web"
     },
     "company": "iDVROOM",
     "start": {
       "year": 2016,
       "month": 6
     },
+    "tech": ["PHP", "Zend Framework 2", "Doctrine", "Behat", "PHPUnit", "NodeJS", "AWS"],
     "tasks": {
       "fr": [{
         "title": "Développement des nouvelles fonctionnalités de la plateforme de covoiturage",
@@ -63,7 +64,15 @@
         "title": "Refonte complète du système de paiement",
         "description": []
       }],
-      "en": []
+      "en": [{
+        "title": "Developed features for carpooling website."
+      }, {
+        "title": "Developed APIs for exchanges with partners (Renault, SNCF)"
+      }, {
+        "title": "Designed, implemented and maintained the new payment system and all features associated with (fraud detection, bank reconciliation)"
+      }, {
+        "title": "Scrum master"
+      }]
     }
   }, {
     "title": {
@@ -79,6 +88,7 @@
       "year": 2016,
       "month": 4
     },
+    "tech": ["C#", "ASP.NET", "SQL Server", "NodeJS"],
     "tasks": {
       "fr": [{
         "title": "Référent technique pour l'équipe de développement web",
@@ -96,7 +106,17 @@
         "title": "Soutien a l'équipe d'administrateurs système",
         "description": []
       }],
-      "en": []
+      "en": [{
+        "title": "Developed BtoB and BtoC e-commerce websites"
+      }, {
+        "title": "Technical mentor for all web team members (8 developers and 4 consultants)"
+      }, {
+        "title": "Developed internal websites (client portal, bug tracker)"
+      }, {
+        "title": "Developed web-based tools for system administrators (provisioning, monitoring, etc.)"
+      }, {
+        "title": "Helped system administrators for advanced tasks and week-end monitoring"
+      }]
     }
   }, {
     "title": {
@@ -112,6 +132,7 @@
       "year": 2012,
       "month": 9
     },
+    "tech": ["C#", "ASP.NET", "SQL Server", "NodeJS"],
     "tasks": {
       "fr": [{
         "title": "Développement de modules pour les sites e-commerce",
@@ -123,7 +144,13 @@
         "title": "Développement du système de monitoring",
         "description": []
       }],
-      "en": []
+      "en": [{
+        "title": "Developed features for e-commerce websites"
+      }, {
+        "title": "Developed SaaS platform connection tool"
+      }, {
+        "title": "Developed system monitoring tools (availability, load, etc.)"
+      }]
     }
   }, {
     "title": {
@@ -139,12 +166,15 @@
       "year": 2009,
       "month": 1
     },
+    "tech": ["C#", "ASP.NET", "VB", "ASP", "SQL Server", "NodeJS"],
     "tasks": {
       "fr": [{
         "title": "Développement de modules d'agenda et de planification pour l'application full web OpenPortal",
         "description": []
       }],
-      "en": []
+      "en": [{
+        "title": "Developed calendar and planning modules for web-based application OpenPortal."
+      }]
     }
   }, {
     "title": {
@@ -156,6 +186,7 @@
       "year": 2004,
       "month": 1
     },
+    "tech": ["PHP", "Symfony", "MySQL/MariaDB", "Debian", "NodeJS"],
     "tasks": {
       "fr": [{
         "title": "Création des sites internet de l'association et de ses évènements",
@@ -164,7 +195,11 @@
         "title": "Administration des serveurs web",
         "description": []
       }],
-      "en": []
+      "en": [{
+        "title": "NPO and its events websites creation"
+      }, {
+        "title": "Servers administration"
+      }]
     }
   }, {
     "title": {
@@ -180,11 +215,14 @@
       "year": 2007,
       "month": 1
     },
+    "tech": [],
     "tasks": {
       "fr": [{
         "title": "Assistance technique avancée (niveau 2) pour les clients ADSL de NEUF TELECOM (SFR)"
       }],
-      "en": []
+      "en": [{
+        "title": "Advanced technical support for SFR ISP customers."
+      }]
     }
   }],
   "education": [{
@@ -230,10 +268,10 @@
   }],
   "skills": [{
     "title": "ASP.NET / C#",
-    "grade": 0.9
+    "grade": 0.85
   }, {
     "title": "SQL",
-    "grade": 0.85
+    "grade": 0.80
   }, {
     "title": "Javascript",
     "grade": 0.75
@@ -255,7 +293,7 @@
       "fr": "Anglais",
       "en": "English"
     },
-    "grade": 0.70
+    "grade": 0.65
   }, {
     "title": {
       "fr": "Espagnol",
