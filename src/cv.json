@@ -2,11 +2,11 @@
   "name": "Fabrice Lamant",
   "title": {
     "fr": "Développeur web",
-    "en": "Web developer // team lead"
+    "en": "Software engineer // team lead"
   },
   "about": {
     "fr": "Bonjour, je suis Fabrice Lamant, j'ai {age} ans, je suis développeur web full-stack et lead technique.\r\nPassionné de nouvelles technologies, j'ai commencé à développer mes premiers sites à l’âge de 14 ans.\r\nDepuis je cherche continuellement de nouveaux défis.",
-    "en": "Web developer offering +10 years of experience in developing complex web applications, e-commerce websites and APIs.\r\nLooking for an opportunity to work in Ireland."
+    "en": "Software engineer offering 10+ years of experience in developing complex web applications, e-commerce websites and APIs.\r\nLooking for an opportunity in Dublin."
   },
   "contact": [{
     "icon": "envelope-o",
@@ -39,9 +39,6 @@
     "icon": "twitter",
     "link": "https://twitter.com/pook404"
   }],
-  "hashtags": [
-    "#webdev", "#geek", "#dad"
-  ],
   "experience": [{
     "title": {
       "en": "Lead web developer",
@@ -268,20 +265,39 @@
   }],
   "skills": [{
     "title": "ASP.NET / C#",
-    "grade": 0.85
+    "grade": 0.90
   }, {
     "title": "SQL",
-    "grade": 0.80
+    "grade": 0.85
   }, {
     "title": "Javascript",
-    "grade": 0.75
-  }, {
-    "title": "PHP",
-    "grade": 0.7
+    "grade": 0.80
   }, {
     "title": "HTML / CSS",
-    "grade": 0.65
+    "grade": 0.7
   }],
+  "tags": [
+    "AD", "AJAX", "APACHE", "ASP.NET", "AWS",
+    "C#", "CLR", "CSS",
+    "DRY",
+    "GIT",
+    "HTML",
+    "IIS",
+    "KISS",
+    "JS", "JSON",
+    "LESS", "LINQ", "LINUX",
+    "MONGO", "MVC", "MySQL",
+    ".NET", "NGINX",
+    "OOP",
+    "PHP",
+    "SCRUM", "SEO", "SOA", "SOLID", "SQL",
+    "TDD", "TFS",
+    "UNIX",
+    "VB", "VS",
+    "WIN",
+    "XML", "XSLT",
+    "YAGNI"
+  ],
   "languages": [{
     "title": {
       "fr": "Français",

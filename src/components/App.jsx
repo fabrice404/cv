@@ -8,6 +8,7 @@ import Hobbies from './Hobbies';
 import Languages from './Languages';
 import Links from './Links';
 import Skills from './Skills';
+import Tags from './Tags';
 
 const App = props => (
   <div>
@@ -34,6 +35,7 @@ const App = props => (
         </div>
         <div className="col-md-4">
           <Skills skills={props.cv.skills} lang={props.lang}/>
+          <Tags tags={props.cv.tags} lang={props.lang}/>
           <Languages languages={props.cv.languages} lang={props.lang}/>
           <Hobbies hobbies={props.cv.hobbies} lang={props.lang}/>
           <Links links={props.cv.links} lang={props.lang}/>

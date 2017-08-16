@@ -120,7 +120,8 @@ $color5: #188fa7;
   .section--hobbies,
   .section--languages,
   .section--links,
-  .section--skills {
+  .section--skills,
+  .section--tags {
     .title-1 {
       color: $color5;
       font-family: 'Montserrat',sans-serif;
@@ -161,6 +162,17 @@ $color5: #188fa7;
           color: $color5;
           margin-right: 10px;
         }
+      }
+    }
+
+    .tags-list {
+      list-style-type: none;
+      padding: 0;
+
+      .list-item {
+        display: inline-block;
+        font-size: 10px;
+        padding-right: 5px;
       }
     }
 
