@@ -23,7 +23,7 @@ const ExperienceItem = props => (
       </span>
       <span className="end">
         {props.end && <span>{moment(props.end.month + ' ' + props.end.year, 'MM YYYY').format('MMM YYYY')}</span>}
-        {!props.end && <span>{moment().format('MMM YYYY')}</span>}
+        {!props.end && <span>present</span>}
       </span>
       )
     </span>
