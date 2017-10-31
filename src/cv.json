@@ -62,13 +62,17 @@
         "description": []
       }],
       "en": [{
-        "title": "Developed features for carpooling website."
+        "title": "Developed somes features of iDVROOM and B2B carpooling websites with PHP (ZF2) for 400  000 users."
       }, {
-        "title": "Developed APIs for exchanges with partners (Renault, SNCF)"
+        "title": "Developed API for the car manufacturer Renault to integrate iDVROOM carpools on the 180 000 cars' R Link dashboard and My Renault app with AWS Lambda and AWS RDS."
       }, {
-        "title": "Designed, implemented and maintained the new payment system and all features associated with (fraud detection, bank reconciliation)"
+        "title": "Developed API for the french national rail company (SNCF) to integrate iDVROOM carpools on their trip search (approx. 300 000 calls per day)."
       }, {
-        "title": "Scrum master"
+        "title": "Designed and implemented the new payment system with a full integration of HiPay's payment and markeplace APIs (SOAP & REST)."
+      }, {
+        "title": "Developed tools for fraud detection and bank reconciliation with nodeJS."
+      }, {
+        "title": "Scrum master for the payment team with two-week sprints, daily meetings, sprint pokers, retrospectives, etc."
       }]
     }
   }, {
@@ -104,13 +108,13 @@
         "description": []
       }],
       "en": [{
-        "title": "Developed BtoB and BtoC e-commerce websites"
+        "title": "Developed the e-commerce framework using ASP.NET / C#, used it to release over 150 b2b & b2c websites."
       }, {
-        "title": "Technical mentor for all web team members (8 developers and 4 consultants)"
+        "title": "Technical mentor for the whole web team 4 front-end developers, 4 back-end developers and 4 marketing consultants. Managed "
       }, {
-        "title": "Developed internal websites (client portal, bug tracker)"
+        "title": "Developed ticketing and bug tracker website for 300 clients, directly linked to TFS code source control database for live feedback."
       }, {
-        "title": "Developed web-based tools for system administrators (provisioning, monitoring, etc.)"
+        "title": "Developed tools to help system administrators to automagically populate and maintain Active Directory, IIS and SQL Server databases."
       }, {
         "title": "Helped system administrators for advanced tasks and week-end monitoring"
       }]
