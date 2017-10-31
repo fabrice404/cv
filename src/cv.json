@@ -110,13 +110,15 @@
       "en": [{
         "title": "Developed the e-commerce framework using ASP.NET / C#, used it to release over 150 b2b & b2c websites."
       }, {
-        "title": "Technical mentor for the whole web team 4 front-end developers, 4 back-end developers and 4 marketing consultants. Managed "
+        "title": "Technical mentor and architect of the web team comprised of 4 front-end developers, 4 back-end developers and 4 marketing consultants, managed releases planning and tasks assignment."
       }, {
         "title": "Developed ticketing and bug tracker website for 300 clients, directly linked to TFS code source control database for live feedback."
       }, {
         "title": "Developed tools to help system administrators to automagically populate and maintain Active Directory, IIS and SQL Server databases."
       }, {
-        "title": "Helped system administrators for advanced tasks and week-end monitoring"
+        "title": "Developed webservices based on Windows Management Instrumentation for server hardware monitoring on Centreon/Nagios."
+      }, {
+        "title": "Helped system administrators for advanced tasks and week-end monitoring."
       }]
     }
   }, {
@@ -174,6 +176,8 @@
         "description": []
       }],
       "en": [{
+        "title": "Rewrote code to migrate from classic ASP / VC to ASP.NET / C#"
+      }, {
         "title": "Developed calendar and planning modules for web-based application OpenPortal."
       }]
     }
