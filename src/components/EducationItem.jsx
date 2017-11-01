@@ -13,7 +13,7 @@ const EducationItem = props => (
       </span>
       )
     </span>
-    <ul className="list">
+    <ul className="task-list">
       <li className="list-item">
         <FontAwesome name="caret-right"/> {props.subtitle[props.lang]}
       </li>

@@ -62,11 +62,11 @@
         "description": []
       }],
       "en": [{
-        "title": "Developed somes features of iDVROOM and B2B carpooling websites with PHP (ZF2) for 400  000 users."
+        "title": "Developed features for iDVROOM and B2B carpooling websites with PHP (ZF2) for 400  000 users."
       }, {
         "title": "Developed API for the car manufacturer Renault to integrate iDVROOM carpools on the 180 000 cars' R Link dashboard and My Renault app with AWS Lambda and AWS RDS."
       }, {
-        "title": "Developed API for the french national rail company (SNCF) to integrate iDVROOM carpools on their trip search (approx. 300 000 calls per day)."
+        "title": "Developed API for the french national rail company (SNCF) to integrate iDVROOM carpools on their trip search, approximatively 300 000 calls per day."
       }, {
         "title": "Designed and implemented the new payment system with a full integration of HiPay's payment and markeplace APIs (SOAP & REST)."
       }, {
@@ -110,9 +110,9 @@
       "en": [{
         "title": "Developed the e-commerce framework using ASP.NET / C#, used it to release over 150 b2b & b2c websites."
       }, {
-        "title": "Technical mentor and architect of the web team comprised of 4 front-end developers, 4 back-end developers and 4 marketing consultants, managed releases planning and tasks assignment."
+        "title": "Technical mentor and architect for the web team comprised of 4 front-end developers, 4 back-end developers and 4 marketing consultants, managed releases planning and tasks assignment."
       }, {
-        "title": "Developed ticketing and bug tracker website for 300 clients, directly linked to TFS code source control database for live feedback."
+        "title": "Wrote ticketing and bug tracker website for 300 clients, directly linked to TFS code source control database for live feedback."
       }, {
         "title": "Developed tools to help system administrators to automagically populate and maintain Active Directory, IIS and SQL Server databases."
       }, {
@@ -148,9 +148,9 @@
         "description": []
       }],
       "en": [{
-        "title": "Developed features for e-commerce websites"
+        "title": "Developed features for e-commerce websites with ASP.NET and C#, integrated new payment systems (ATOS SIPS, Paybox, PayPal, ) and new delivering providers (So Colissimo, Kiala, Chronopost, DPD, etc.)"
       }, {
-        "title": "Developed SaaS platform connection tool"
+        "title": "Developed SaaS platform connection tool using the Windows COM interop MSTSCLib which allow clients to connect to any RDP server with no need of a tool like Citrix."
       }, {
         "title": "Developed system monitoring tools (availability, load, etc.)"
       }]
@@ -176,19 +176,23 @@
         "description": []
       }],
       "en": [{
-        "title": "Rewrote code to migrate from classic ASP / VC to ASP.NET / C#"
+        "title": "Developed calendar and planning modules for web-based application OpenPortal with ASP.NET and C#."
       }, {
-        "title": "Developed calendar and planning modules for web-based application OpenPortal."
+        "title": "Migrated modules of the application from classic ASP and VB to ASP.NET and C#."
       }]
     }
   }, {
     "title": {
-      "en": "Webmaster",
+      "en": "Webmaster & volunteer",
       "fr": "Webmaster"
     },
     "company": "Spirit LAN",
     "start": {
       "year": 2004,
+      "month": 1
+    },
+    "end": {
+      "year": 2017,
       "month": 1
     },
     "tech": ["PHP", "Symfony", "MySQL/MariaDB", "Debian", "NodeJS"],
@@ -201,9 +205,7 @@
         "description": []
       }],
       "en": [{
-        "title": "NPO and its events websites creation"
-      }, {
-        "title": "Servers administration"
+        "title": "Created websites for the non-profit organisation Spirit LAN which help people to access internet and make risk prevention for youth people on the web."
       }]
     }
   }, {
@@ -253,11 +255,11 @@
   }, {
     "title": {
       "fr": "BTS IRIS",
-      "en": "2-year degree in industrial IT"
+      "en": "2-year degree in industrial IT and networks for industry and technical services"
     },
     "subtitle": {
       "fr": "Informatique et réseaux pour l'industrie et les services techniques.",
-      "en": "IT and networks for industry and technical services"
+      "en": "Computers and microprocessors architecture // Programing basis (C, C++, Java) // Databases (Query languages, Merise) // Internet programing languages (PHP, HTML, JavaScript, CSS) // Network administration // Unified Modeling Language // Real-time computing (C, C++) // Network communications:  RS232 / RS422 / RS485, TCP/IP, CAN, I2C, etc. // Embedded systems // Applied physics // Mathematics"
     },
     "year": 2006
   }, {
